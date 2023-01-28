@@ -4,13 +4,13 @@ export default class Book {
     this.author = author;
   }
 
-  static displayBooks() {
+   static displayBooks = ()=> {
     const books = Book.getBooks();
     if (Book.checkEmpty()) return;
     books.forEach((book) => Book.addBookToList(book));
   }
 
-  static addBookToList(book) {
+  static addBookToList = (book)=> {
     const list = document.querySelector('#book-list');
 
     const row = document.createElement('tr');
@@ -23,13 +23,13 @@ export default class Book {
     list.appendChild(row);
   }
 
-  static deleteBook(el) {
+  static deleteBook = (el)=> {
     if (el.classList.contains('delete')) {
       el.parentElement.parentElement.remove();
     }
   }
 
-  static getBooks() {
+  static getBooks = ()=> {
     const books = JSON.parse(localStorage.getItem('books')) || [{
       title: 'The Great Gatsby', author: 'F. Scott Fitzgerald',
     }, {
@@ -38,13 +38,13 @@ export default class Book {
     return books;
   }
 
-  static addBook(book) {
+  static addBook = (book)=> {
     const books = Book.getBooks();
     books.push(book);
     localStorage.setItem('books', JSON.stringify(books));
   }
 
-  static removeBook(removed) {
+  static removeBook = (removed)=> {
     const books = Book.getBooks();
     const m = document.querySelectorAll('tr');
     let counter = 0;
@@ -59,7 +59,7 @@ export default class Book {
     Book.checkEmpty();
   }
 
-  static checkEmpty() {
+  static checkEmpty = ()=> {
     const books = Book.getBooks();
     if (books.length === 0) {
       const isEmptyMessage = document.createElement('div');
