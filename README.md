@@ -109,7 +109,7 @@ You can deploy this project using
 __Yordanos Temesgen__
 - GitHub: [@yordinia](https://github.com/yordinia)
 - Twitter: [@yordinia](https://twitter.com/yordinia)
-- LinkedIn: [Yordanos-Temesgen](https://linkedin.com/in/yordanos-temesgen-251b6a202
+- LinkedIn: [Yordanos-Temesgen](https://linkedin.com/in/yordanos-temesgen-251b6a202)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
