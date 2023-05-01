@@ -84,7 +84,7 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  git clone https://github.com/yordinia/Awesome-Books.git
+  git clone https://github.com/yordinia/AwesomeBooks-ES6.git
 ```
 
 
@@ -92,8 +92,8 @@ Clone this repository to your desired folder:
 ### Deployment
 
 You can deploy this project using 
-> [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
-
+> [Github Pages](https://yordinia.github.io/AwesomeBooks-ES6)
+or
 > [github html preview](https://htmlpreview.github.io/) and paste index adress into it to view.
 
 
